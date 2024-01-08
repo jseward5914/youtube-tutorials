@@ -1,0 +1,31 @@
+.cells {
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    border: 5px solid black;
+    font-weight: bold;
+    font-size: 220px;
+    text-align: center;
+    text-justify: center;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
+}
